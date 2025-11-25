@@ -18,6 +18,7 @@ DR Tulu-8B is the first open Deep Research (DR) model trained for long-form DR t
 
 ## Release Notes 
 - November 19, 2025: Initial code release.
+- November 25, 2025: We released our interactive CLI demo code, along with additional documentation for evaluation, training, and our new RL checkpoints.
 
 ## Overview
 
