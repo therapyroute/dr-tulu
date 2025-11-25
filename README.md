@@ -148,7 +148,7 @@ If you find our work useful, please cite:
                   and Wu, Tongshuang and Zettlemoyer, Luke and Kim, Yoon
                   and Hajishirzi, Hannaneh and Koh, Pang Wei},
   year         = {2025},
-  note         = {Preprint},
+  note         = {arXiv preprint arXiv:2511.19399},
 }
 ```
 If you have any questions, you can contact [Rulin Shao](https://rulinshao.github.io/), [Akari Asai](https://akariasai.github.io/), [Shannon Shen](https://www.szj.io/), and [Hamish Ivison](https://ivison.id.au/) or open a github issue. 
