@@ -157,4 +157,13 @@ Examples:
   ]
 }
 ```
-The following command can be used to convert the output of DR Tulu models: python evaluation/sqa_eval/convert_to_asta_format.py --folder <folder_name> --file <file_name>
+The following command can be used to convert the output of DR Tulu models: 
+```bash
+python evaluation/sqa_eval/convert_to_asta_format.py --folder <folder_name> --file <file_name>
+```
+2. Clone the following repo: https://github.com/allenai/agent-baselines
+3. Run the following command:
+```bash
+uv run --extra sqa inspect eval astabench/sqa --display plain --solver agent_baselines/solvers/sqa/debug/cached_solver.py -S path=<outputfile_from_step1> -T split=test -T with_search_tools=False --display=plain -T simplified_eval=true -T assess_jointly=true --max-connections 16 -T sentence_wise_cit_eval=false -T all_at_once=true -T scorer_model="google/gemini-2.5-flash"
+```
+Note you have to export GOOGLE_API_KEY and HF_TOKEN. If there are errors asking for any other tokens, you can enter a dummy value. 
